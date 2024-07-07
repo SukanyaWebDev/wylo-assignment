@@ -1,0 +1,161 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(102, 86, 86);
+    color: antiquewhite;
+}
+
+.post {
+    padding: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 10px;
+    color: #0c0c0c;
+    min-width: 500px;
+    max-width: 250px;
+    
+    
+    
+}
+.post>p{
+    overflow-x: auto;
+}
+
+.editButton{
+    border:none;
+    background-color: transparent;
+    color: #9f1717;
+    font-weight: bold;
+    border: 2px solid green;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+.info {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+
+}
+
+.header-button{
+    background-color: transparent;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.header-button:hover{
+    background-color: #ffffff;
+    color: #0c0c0c;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    background-color: rgb(179, 56, 56);
+    padding: 10px;
+    justify-content: space-between;
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+}
+.create-post{
+    background-color: gold;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+}
+.create-post1{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 10px;
+    color: #889a2d;
+    border: 2px solid gold;
+    padding: 10px;
+}
+.create-post1:hover{
+    background-color: rgb(145, 93, 56);
+    color: #ffffff;
+    border: 2px sloid black;
+}
+input{
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+input::placeholder{
+    color: rgb(142, 128, 128);
+    font-weight: bold;
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
+
+textarea::placeholder{
+    font-weight: bold;
+    outline: none;
+}
+
+textarea:focus{
+    outline: none;
+}
+.create-post:hover{
+    background-color: rgb(145, 93, 56);
+}
+
+.postsDisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(195, 209, 200, 0.452);
+}
+.pHome{
+    padding: 20px;
+}
+p{
+    overflow: auto;
+}
