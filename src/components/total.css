@@ -33,6 +33,13 @@
     padding: 15px;
     border-radius: 10px;
 }
+.editButton:hover{
+    background-color: #0c0c0c;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 
 .info {
@@ -54,6 +61,7 @@
 .header-button:hover{
     background-color: #ffffff;
     color: #0c0c0c;
+    font-size: 24px;
 }
 
 .modal {
@@ -118,6 +126,7 @@ form{
     background-color: rgb(145, 93, 56);
     color: #ffffff;
     border: 2px sloid black;
+    font-size: 25px;
 }
 input{
     margin-bottom: 10px;
