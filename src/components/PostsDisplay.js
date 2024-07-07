@@ -39,7 +39,7 @@ class PostsDisplay extends Component {
               <CreatePost onPostSubmit={this.closeModal} />
             </Modal>
             <div id='postDiaplay'>
-              <h1>Posts</h1>
+              <h1>Posts Site By Sukanya</h1>
               <div className='postsDisplay'>
                 {posts.map((post, index) => (
                   <PostItem key={index} index={index} post={post} />
